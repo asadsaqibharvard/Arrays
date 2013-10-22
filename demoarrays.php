@@ -19,5 +19,15 @@ foreach ($contestants as $name => $winner_or_loser) {
 }
 ?>
 
+<table>
+	<?php foreach ($contestants as $name => $winner_or_loser): ?>
+		<tr>
+			<td><?=$name?></td><td><?=$winner_or_loser?></td>
+		</tr>
+	<?php endforeach; ?>
+</table>
+
+
+
 </body>
 </html>
