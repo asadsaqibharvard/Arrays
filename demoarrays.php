@@ -29,5 +29,11 @@ foreach ($contestants as $name => $winner_or_loser) {
 
 
 
+<?php
+for ($i=0; $i < count($contestants); $i++) { 
+	echo $contestants[$i]."<br>";
+}
+?>
+
 </body>
 </html>
