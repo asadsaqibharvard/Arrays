@@ -1,5 +1,9 @@
 <?php
 
+echo "<pre>";
+echo print_r($_POST);
+echo "</pre>";
+
 $contestants['Sam'] = '';
 $contestants['Asad'] = '';
 $contestants['John'] = '';
