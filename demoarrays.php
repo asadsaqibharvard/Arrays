@@ -12,12 +12,6 @@
 
 <body>
 
-	
-<?php
-foreach ($contestants as $name => $winner_or_loser) {
-	echo $name." is ".$winner_or_loser."<br>";
-}
-?>
 
 <table>
 	<?php foreach ($contestants as $name => $winner_or_loser): ?>
@@ -29,11 +23,6 @@ foreach ($contestants as $name => $winner_or_loser) {
 
 
 
-<?php
-for ($i=0; $i < count($contestants); $i++) { 
-	echo $contestants[$i]."<br>";
-}
-?>
 
 </body>
 </html>
