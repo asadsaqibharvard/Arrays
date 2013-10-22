@@ -13,6 +13,16 @@
 <body>
 
 
+	<form action='demoarrays.php' method='POST'>
+		<input type='text' name='contestant1'><br>
+		<input type='text' name='contestant2'><br>
+		<input type='text' name='contestant3'><br>
+		<input type='text' name='contestant4'><br>
+		<input type='submit'>
+	</form>
+
+
+
 <table>
 	<?php foreach ($contestants as $name => $winner_or_loser): ?>
 		<tr>
