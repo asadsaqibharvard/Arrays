@@ -12,14 +12,12 @@
 
 <body>
 
-<pre>
-<?php
-print_r($contestants); 
-?>
-</pre>
-
-Asad is a <?=$contestants['Asad']?>
 	
+<?php
+foreach ($contestants as $name => $winner_or_loser) {
+	echo $name." is ".$winner_or_loser."<br>";
+}
+?>
 
 </body>
 </html>
